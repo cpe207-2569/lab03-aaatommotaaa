@@ -1,9 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <div class="nav-color thai bg-opacity-25">
+      <div class="d-flex gap-4 justify-content-center fw-semibold fs-6 py-3">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="fav.html">Favorites</a>
+        <a class="nav-link" href="gall.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="px-4">
+      <div
+        class="container thai d-flex flex-column flex-md-row justify-content-center align-items-center"
+        style="max-width: 900px"
+      >
+        <img src="img/me.PNG" width="350px" />
+
+        <div class="ms-md-4 text-center text-md-start">
+          <div class="fs-2 fw-semibold mb-2">ชนิดาภา ไพรินทราภา</div>
+
+          <div class="text-muted">
+            <span>Hello, my name is </span>
+            <span class="fw-semibold">Chanidapha Phairintharapha.</span>
+            <span> You can call me</span>
+            <span class="fw-semibold">Atom.</span>
+            I am a Computer Engineering student at Chiang Mai University,
+            passionate about technology and software development.
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="thai fw-semibold fs-2 text-center my-4 my-md-2">Skills</div>
+
+        <div
+          class="card mb-3 mx-auto"
+          style="
+            max-width: 900px;
+            background-color: #dcecef;
+            border-color: black;
+          "
+        >
+          <div class="row g-1">
+            <div class="col-md-4">
+              <img
+                src="img/code.jpg"
+                class="img-fluid rounded"
+                style="width: 100%; height: 170px; object-fit: cover"
+              />
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+              <div class="card-body thai ps-4">
+                <h5 class="card-title fw-semibold">Programming</h5>
+                <p class="card-text">
+                  สามารถเขียนโปรแกรมภาษา C++ เบื้องต้นได้
+                  รวมถึงเคยมีประสบการณ์ในการเขียนโปรแกรมภาษา Python, Html, และ
+                  Javascript เพื่อใช้ในการพัฒนาเว็บไซต์
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card mb-3 mx-auto"
+          style="
+            max-width: 900px;
+            background-color: #dcecef;
+            border-color: black;
+          "
+        >
+          <div class="row g-1">
+            <div class="col-md-8 d-flex align-items-center order-2 order-md-1">
+              <div class="card-body thai ps-4">
+                <h5 class="card-title fw-semibold">UI Designing</h5>
+                <p class="card-text">
+                  เคยออกแบบ UI ผ่านโปรแกรม Figma และใช้ React
+                  เพื่อพัฒนาเว็บไซต์สำหรับใช้ในการแข่งขันในระดับมัธยมศึกษา
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 order-1 order-md-2">
+              <img
+                src="img/ui.jpg"
+                class="img-fluid rounded"
+                style="width: 100%; height: 170px; object-fit: cover"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card mb-3 mx-auto"
+          style="
+            max-width: 900px;
+            background-color: #dcecef;
+            border-color: black;
+          "
+        >
+          <div class="row g-1">
+            <div class="col-md-4">
+              <img
+                src="img/leader.jpg"
+                class="img-fluid rounded"
+                style="width: 100%; height: 170px; object-fit: cover"
+              />
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+              <div class="card-body thai ps-4">
+                <h5 class="card-title fw-semibold">Leadership</h5>
+                <p class="card-text">
+                  มีภาวะความเป็นผู้นำ
+                  สามารถนำให้ทีมทำงานให้บรรลุเป้าหมายที่ตั้งเอาไว้ได้
+                  รวมถึงมีความรับผิดชอบต่อหน้าที่ของตัวเอง
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
